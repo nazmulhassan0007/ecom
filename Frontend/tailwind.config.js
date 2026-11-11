@@ -29,11 +29,5 @@ module.exports = {
       },
     },
   },
-  plugins: [require("tailwind-scrollbar"),
-    require('tailwind-kinetics')({
-      duration: '500ms', // Change default animation duration
-      delay: '1s', // Add default delay
-    iterationCount: '1' // Make animations repeat infinitely
-    })
-  ],
+  plugins: [require("tailwind-scrollbar")],
 };
